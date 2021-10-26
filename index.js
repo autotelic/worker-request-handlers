@@ -1,11 +1,13 @@
-const { sitesHandler } = require('./lib/sitesHandler')
-const {
+import { sitesHandler } from './lib/sitesHandler'
+import { createAuthorizationHandler } from './lib/authorizationHandler'
+import {
   basicAuthenticationHandler,
   createKVCredentialsVerifier
-} = require('./lib/basicAuthenticationHandler')
+} from './lib/basicAuthenticationHandler'
 
-module.exports = {
+export {
   sitesHandler,
   basicAuthenticationHandler,
-  createKVCredentialsVerifier
+  createKVCredentialsVerifier,
+  createAuthorizationHandler
 }
