@@ -1,5 +1,6 @@
 import { sitesHandler } from './lib/sitesHandler'
 import { createAuthorizationHandler } from './lib/authorizationHandler'
+import { createApiProxyHandler } from './lib/apiProxyHandler'
 import {
   basicAuthenticationHandler,
   createKVCredentialsVerifier
@@ -9,5 +10,6 @@ export {
   sitesHandler,
   basicAuthenticationHandler,
   createKVCredentialsVerifier,
-  createAuthorizationHandler
+  createAuthorizationHandler,
+  createApiProxyHandler
 }
