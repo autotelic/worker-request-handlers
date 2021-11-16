@@ -1,4 +1,4 @@
-import { sitesHandler } from './lib/sitesHandler'
+import { createSitesHandler } from './lib/sitesHandler'
 import { createAuthorizationHandler } from './lib/authorizationHandler'
 import { createApiProxyHandler } from './lib/apiProxyHandler'
 import { createCookieEncryptor } from './lib/createCookieEncryptor'
@@ -8,7 +8,7 @@ import {
 } from './lib/basicAuthenticationHandler'
 
 export {
-  sitesHandler,
+  createSitesHandler,
   basicAuthenticationHandler,
   createKVCredentialsVerifier,
   createAuthorizationHandler,
