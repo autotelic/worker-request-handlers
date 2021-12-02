@@ -1,7 +1,7 @@
 import { createSitesHandler, createSitesErrorHandler } from './lib/sitesHandler'
 import { createAuthorizationHandler } from './lib/authorizationHandler'
 import { createApiProxyHandler } from './lib/apiProxyHandler'
-import { createCookieEncryptor } from './lib/createCookieEncryptor'
+import { createCookieEncryptor } from './lib/cookieEncryptor'
 import {
   basicAuthenticationHandler,
   createKVCredentialsVerifier
