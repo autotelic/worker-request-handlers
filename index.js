@@ -3,14 +3,14 @@ import { createAuthorizationHandler } from './lib/authorizationHandler'
 import { createApiProxyHandler } from './lib/apiProxyHandler'
 import { createCookieEncryptor } from './lib/createCookieEncryptor'
 import {
-  createBasicAuthenticationHandler,
+  basicAuthenticationHandler,
   createKVCredentialsVerifier
 } from './lib/basicAuthenticationHandler'
 
 export {
   createSitesHandler,
   createSitesErrorHandler,
-  createBasicAuthenticationHandler,
+  basicAuthenticationHandler,
   createKVCredentialsVerifier,
   createAuthorizationHandler,
   createApiProxyHandler,
