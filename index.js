@@ -7,6 +7,7 @@ import {
   createBasicAuthenticationHandler,
   createKVCredentialsVerifier
 } from './lib/basicAuthenticationHandler'
+import { createVerifyJwksHandler } from './lib/verifyJwksHandler'
 
 export {
   createSitesHandler,
@@ -16,5 +17,6 @@ export {
   createAuthorizationHandler,
   createApiProxyHandler,
   createCookieEncryptor,
-  generateStateParam
+  generateStateParam,
+  createVerifyJwksHandler,
 }
