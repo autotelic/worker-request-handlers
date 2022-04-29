@@ -18,11 +18,11 @@
     "base64url": "^3.0.1",
     "itty-router": "^2.4.4",
     "itty-router-extras": "^0.4.2",
-    "oso": "^0.25.0"
+    "oso": "^0.26.0"
   },
   "devDependencies": {
     "ava": "^4.1.0",
-    "sinon": "^12.0.1",
+    "sinon": "^13.0.2",
     "standard": "^17.0.0"
   }
 }
