@@ -1,0 +1,23 @@
+{
+  "name": "verify-jwks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild --bundle --sourcemap --outdir=dist ./index.js",
+    "dev": "miniflare --watch --debug",
+    "key-gen": "node ./getKeyAndJwt.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "itty-router": "^2.6.1",
+    "itty-router-extras": "^0.4.2",
+    "miniflare": "^2.4.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.38"
+  }
+}
