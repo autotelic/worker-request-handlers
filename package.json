@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "ava": "^4.1.0",
-    "sinon": "^13.0.2",
+    "sinon": "^14.0.0",
     "standard": "^17.0.0"
   }
 }
