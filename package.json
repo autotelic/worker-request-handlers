@@ -8,14 +8,14 @@
     "fix": "npm run lint -- --fix",
     "lint": "standard",
     "test": "ava --verbose",
-    "build-test": "esbuild --bundle --sourcemap --outdir=./util/worker/dist ./util/worker/index.js",
+    "build-test": "esbuild --bundle --sourcemap",
     "validate": "npm run lint && npm run test",
     "verify": "miniflare examples/verify-jwks/index.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@autotelic/worker-logger": "github:autotelic/worker-logger#main",
+    "@autotelic/worker-logger": "file:.yalc/@autotelic/worker-logger",
     "@cloudflare/kv-asset-handler": "^0.2.0",
     "@worker-tools/request-cookie-store": "^0.4.2",
     "base64url": "^3.0.1",

@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@autotelic/worker-logger": {
+      "signature": "70851c0aad20d6e1fdb78886b1a9bbe1",
+      "file": true,
+      "replaced": "github:autotelic/worker-logger#main"
+    }
+  }
+}
