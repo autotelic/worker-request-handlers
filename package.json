@@ -7,24 +7,28 @@
   "scripts": {
     "fix": "npm run lint -- --fix",
     "lint": "standard",
-    "test": "ava --verbose lib/**/*.test.js",
+    "test": "ava --verbose",
+    "build-test": "esbuild --bundle --sourcemap",
     "validate": "npm run lint && npm run test",
     "verify": "miniflare examples/verify-jwks/index.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@autotelic/worker-logger": "^0.3.0",
     "@cloudflare/kv-asset-handler": "^0.2.0",
     "@worker-tools/request-cookie-store": "^0.4.2",
     "base64url": "^3.0.1",
     "itty-router": "^2.4.4",
     "itty-router-extras": "^0.4.2",
-    "oso": "^0.26.0",
-    "jose": "^4.8.0"
+    "jose": "^4.8.0",
+    "oso": "^0.26.0"
   },
   "devDependencies": {
     "ava": "^4.1.0",
     "sinon": "^14.0.0",
+    "esbuild": "^0.14.38",
+    "miniflare": "^2.4.0",
     "standard": "^17.0.0"
   }
 }

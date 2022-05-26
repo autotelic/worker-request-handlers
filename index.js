@@ -8,6 +8,7 @@ import {
   createKVCredentialsVerifier
 } from './lib/basicAuthenticationHandler'
 import { createVerifyJwksHandler } from './lib/verifyJwksHandler'
+import { createLoggableEventHandler } from './lib/loggableEventHandler'
 
 export {
   createSitesHandler,
@@ -19,4 +20,5 @@ export {
   createCookieEncryptor,
   generateStateParam,
   createVerifyJwksHandler,
+  createLoggableEventHandler
 }
