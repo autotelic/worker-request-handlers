@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@cloudflare/kv-asset-handler": "^0.2.0",
+    "@cloudflare/kv-asset-handler": "^0.3.0",
     "@worker-tools/request-cookie-store": "^0.4.2",
     "base64url": "^3.0.1",
     "itty-router": "^2.4.4",
